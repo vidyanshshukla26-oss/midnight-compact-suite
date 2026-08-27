@@ -1,0 +1,6 @@
+{
+  "name": "Stellar Soroban dApp Suite",
+  "description": "Production Stellar Soroban dApp: Inter-contract cross-calls, real-time event streaming, CI/CD pipeline, and automated test runners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
