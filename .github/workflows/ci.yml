@@ -21,7 +21,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       # NOTE: the Compact compiler is NOT an npm package. It ships as a
       # standalone binary installed via the official installer script.
