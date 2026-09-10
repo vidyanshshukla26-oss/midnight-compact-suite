@@ -1,5 +1,5 @@
 # Midnight Counter dApp
-![CI](https://github.com/REPLACE_WITH_YOUR_GH_USERNAME/REPLACE_WITH_YOUR_REPO/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/vidyanshshukla26-oss/midnight-compact-suite/actions/workflows/ci.yml/badge.svg)
 
 > An ownership-gated counter on Midnight: anyone can see the count go up, but only the holder of a secret key can prove the right to increment it — without ever revealing that key.
 
@@ -34,8 +34,8 @@ Midnight network, Compact language, Midnight.js SDK, React + Vite, Lace wallet, 
 
 ## Setup
 ```bash
-git clone <this-repo-url>
-cd midnight-counter-dapp
+git clone https://github.com/vidyanshshukla26-oss/midnight-compact-suite.git
+cd midnight-compact-suite
 npm install
 
 # Install the Compact toolchain (one-time, official installer — not an npm package):
