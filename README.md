@@ -4,7 +4,7 @@
 > An ownership-gated counter on Midnight: anyone can see the count go up, but only the holder of a secret key can prove the right to increment it — without ever revealing that key.
 
 ## Live Demo
-[PASTE LIVE URL AFTER DEPLOYING FRONTEND]
+[LIVE URL]
 
 <img width="1095" height="715" alt="Screenshot 2026-09-10 133743" src="https://github.com/user-attachments/assets/2ac4306c-4e46-4276-a223-07b064df95ae" />
 
