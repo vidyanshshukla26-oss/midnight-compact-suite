@@ -13,7 +13,7 @@
 | Network  | Address                          |
 |----------|-----------------------------------|
 | Preview  | [https://midnight-compact-suite.netlify.app]     |
-| Preprod  | REPLACE_WITH_YOUR_PREPROD_CONTRACT_ADDRESS |
+| Preprod  |mn_addr_preprod1zpd9epysn2rccnsa7gu26ffuftja8xmdj7y3wr4p8ynskehw0uyqf74ku6 |
 
 ## What This Does
 The contract keeps a single public counter (`count`) that only one "owner" can increment. Instead of storing the owner's key on-chain (which would make them identifiable/linkable on every call), the contract stores a **hash commitment** of that key (`owner_commitment`). To increment the counter, a caller must supply the matching secret key as a private witness; the circuit checks the hash inside the proof and only the pass/fail result (plus the increment amount) becomes public.
